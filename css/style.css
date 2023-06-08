@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.95);
+    overflow-x: hidden;
+}
+.header{
+   
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+}
+
+
+.container{
+    margin: 0px 122px;
+    
+    
+    
+}
+.header-line{
+    height: 100%;
+    padding: 10px;
+    display: flex; /* нужно для расположения элементов в линию */
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* Меню */
+.header-logo{
+
+}
+.nav{
+
+}
+.nav-item{
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: none; /* убирает синие подчеркивание текста */
+    font-size: 24px;
+    margin-right: 23px;
+    transition: color 0.3s linear;
+    
+}
+
+.nav-item:hover{
+    color:#33AB1F
+}
+.btn{
+
+}
+.button{
+    background: #242424;
+    color: #33AB1F;
+    text-decoration: none;
+    padding: 17px 54px;
+    border-radius: 43px;
+    font-size: 24px;
+    transition: color 0.2s linear;
+}
+
+.button:hover{
+    background: #161414fa;
+}
+/* Обо мне */
+.header-down{
+    position: relative;
+    text-align: left;
+    
+
+}
+.header-title{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 64px;
+    text-align: left;
+    position: absolute;
+    margin-top: 200px ;
+    
+    
+}
+span{
+    color: #33AB1F;
+}
+
+
+.header-subtitle{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 24px;
+    letter-spacing: normal;
+    
+    
+}
+.header-profile_picture{
+    position: relative;
+    left: 607px;
+    border-radius: 11px;
+    margin-top: -218px;
+    margin-left: 40px;
+}
+
+/* Порфолио */
+
+.portfolio{
+    height: 100vh;
+    
+    
+}
+
+
+.portfolio-title{
+    position: relative;
+    text-align: center;
+    margin-top: 181px;
+    color:  rgba(255, 255, 255, 0.8); 
+    font-size: 32px;
+}
+.portfolio-title::after{
+    content: "";
+    display: block;
+    width: 324px;
+    height: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+    background-color: #33AB1F;
+    
+}
+
+.images-sneakers{
+    position: relative;
+    margin-top: 90px;
+    left: -43px;
+    
+}
+.portfolio-title_sneakers{
+    position: relative;
+    width: 330px;
+    margin-top: 20px;
+
+}
+.portfolio-title_sneakers__subtitle{
+    position: relative;
+    color: #33AB1F;  
+    font-size: 24px;
+    
+
+
+}
+.portfolio-title_sneakers__description{
+    position: relative;
+    color: #ffffff;
+    margin-top: 12px;
+    text-align: start;
+    font-size: 20px;
+   
+    
+}
+.images-moon{
+    position: relative;
+    left: 531px;
+    top: -448px;
+}
+.portfolio-title_moon__subtitle{
+     color: #33AB1F;
+     font-size: 24px;
+}
+
+.portfolio-title_moon__description{
+    position: relative;
+    color: #ffffff;
+    margin-top: 12px;
+    font-size: 20px;
+    
+    
+}
+/* Навыки */
+
+.skills{
+    
+}
+.skills-show{
+
+}
+.skills-title{
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.8); 
+    font-size: 32px ;
+    margin-top: 150px;
+}
+.skills-title::after{
+    content: "";
+    display: block;
+    width: 324px;
+    height: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+    background-color: #33AB1F;
+    
+}
+.skills-element{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 60px;
+    color: #ffffff;
+    justify-content: center;
+    
+
+}
+.skills-element-upper{
+    display: flex;
+    gap: 100px;
+ 
+    
+}
+
+.skills-element-upper__HTML{
+    width: 219px;
+    height: 50px;
+    background: #242424;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+    
+}
+.skills-element-upper__JS{
+    width: 144px;
+    height:50px;
+    background: #5C7B57;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+
+
+}
+.skills-element-upper__CSS{
+    width: 188px;
+    height: 50px;
+    background: #84623A;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+    
+}
+.skills-element-lower{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    
+}
+.skills-element-lower__Python{
+    width: 279px;
+    height: 50px;
+    background: #565C8F;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+    
+}
+.skills-element-lower__MySQL{
+    width: 247px;
+    height: 50px;
+    background: #253658;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+    
+}
+
+/* Контакты */
+
+.footer{
+
+}
+.footer-title{
+    margin-top: 155px;
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.8); 
+    font-size: 32px ;
+   
+}
+
+.footer-connection{
+    color: rgba(255, 255, 255, 0.8); 
+    font-size: 24px;
+    height: 100%;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex; /* нужно для расположения элементов в линию */
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-connection__number{
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+}
+
+.footer-connection__email{
+    font-family: 'Manrope', sans-serif;
+    font-size: 42px;
+}
